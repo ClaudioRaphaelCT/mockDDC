@@ -19,4 +19,29 @@ const requestDDC = {
   ],
 };
 
-module.exports = {requestDDC}
+const requestIRPF = {
+numCpf: "62439191027",
+anoBase:2022,
+demonstrativoSaldoContratos:[
+   {
+      CodProduto:310,
+      SaldoTotalPago:0.00,
+      SaldoContratado:2400.0,
+      numContrato:1000000858
+   },
+   {
+      CodProduto:310,
+      SaldoTotalPago:0.00,
+      SaldoContratado:1200.0,
+      numContrato:1000000859
+   },
+   {
+      CodProduto:310,
+      SaldoTotalPago:0.00,
+      SaldoContratado:1440.0,
+      numContrato:1000000860
+   }
+]
+}
+
+module.exports = {requestDDC, requestIRPF}
